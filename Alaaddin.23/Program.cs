@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Alaaddin._23
+
 {
     internal class Program
     {
