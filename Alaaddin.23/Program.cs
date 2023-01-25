@@ -1,4 +1,6 @@
-﻿namespace EmployeeMgmt
+﻿using System.Reflection.Emit;
+
+namespace EmployeeMgmt
 {
     partial class Salaries
     {
@@ -351,3 +353,31 @@
             this.PerformLayout();
 
         }
+        #endregion
+
+        private Button UpdateBtn;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Button AddBtn;
+        private PictureBox pictureBox1;
+        private Panel panel2;
+        private Label label5;
+        private Label label6;
+        private Label label4;
+        private Label label3;
+        private Label label2;
+        private Label label1;
+        private Panel panel1;
+        private ComboBox EmpCb;
+        private TextBox DaysTb;
+        private DateTimePicker PeriodTb;
+        private Label LogoutLbl;
+        private PictureBox pictureBox5;
+        private Label SalaryLbl;
+        private PictureBox pictureBox4;
+        private Label label9;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private Label label10;
+        private TextBox AmountTb;
+    }
+}
