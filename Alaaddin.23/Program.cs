@@ -200,3 +200,101 @@
             // 
             // GenCb
             // 
+            this.GenCb.FormattingEnabled = true;
+            this.GenCb.Items.AddRange(new object[] {
+            "Male",
+            "Female"});
+            this.GenCb.Location = new System.Drawing.Point(54, 421);
+            this.GenCb.Name = "GenCb";
+            this.GenCb.Size = new System.Drawing.Size(311, 36);
+            this.GenCb.TabIndex = 20;
+            // 
+            // EmpCb
+            // 
+            this.EmpCb.FormattingEnabled = true;
+            this.EmpCb.Location = new System.Drawing.Point(54, 541);
+            this.EmpCb.Name = "EmpCb";
+            this.EmpCb.Size = new System.Drawing.Size(311, 36);
+            this.EmpCb.TabIndex = 21;
+            // 
+            // DOBTb
+            // 
+            this.DOBTb.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
+            this.DOBTb.CalendarTitleForeColor = System.Drawing.Color.Black;
+            this.DOBTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.DOBTb.Location = new System.Drawing.Point(54, 656);
+            this.DOBTb.Name = "DOBTb";
+            this.DOBTb.Size = new System.Drawing.Size(311, 34);
+            this.DOBTb.TabIndex = 22;
+            // 
+            // JDateTb
+            // 
+            this.JDateTb.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.JDateTb.Location = new System.Drawing.Point(54, 770);
+            this.JDateTb.Name = "JDateTb";
+            this.JDateTb.Size = new System.Drawing.Size(311, 34);
+            this.JDateTb.TabIndex = 23;
+            // 
+            // AddBtn
+            // 
+            this.AddBtn.BackColor = System.Drawing.Color.Teal;
+            this.AddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.AddBtn.ForeColor = System.Drawing.Color.White;
+            this.AddBtn.Location = new System.Drawing.Point(54, 938);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(122, 54);
+            this.AddBtn.TabIndex = 24;
+            this.AddBtn.Text = "Add";
+            this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
+            // 
+            // UpdateBtn
+            // 
+            this.UpdateBtn.BackColor = System.Drawing.Color.Teal;
+            this.UpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.UpdateBtn.ForeColor = System.Drawing.Color.White;
+            this.UpdateBtn.Location = new System.Drawing.Point(215, 938);
+            this.UpdateBtn.Name = "UpdateBtn";
+            this.UpdateBtn.Size = new System.Drawing.Size(122, 54);
+            this.UpdateBtn.TabIndex = 25;
+            this.UpdateBtn.Text = "Update";
+            this.UpdateBtn.UseVisualStyleBackColor = false;
+            this.UpdateBtn.Click += new System.EventHandler(this.UpdateBtn_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label9.ForeColor = System.Drawing.Color.Teal;
+            this.label9.Location = new System.Drawing.Point(1167, 155);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(75, 28);
+            this.label9.TabIndex = 59;
+            this.label9.Text = "Logout";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
+            this.pictureBox5.Location = new System.Drawing.Point(1073, 142);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(61, 41);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 58;
+            this.pictureBox5.TabStop = false;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label10.ForeColor = System.Drawing.Color.Teal;
+            this.label10.Location = new System.Drawing.Point(952, 155);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(65, 28);
+            this.label10.TabIndex = 57;
+            this.label10.Text = "Salary";
+            // 
+            // pictureBox4
+            // 
