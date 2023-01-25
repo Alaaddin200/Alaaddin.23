@@ -1,4 +1,6 @@
-﻿namespace EmployeeMgmt
+﻿using System.Reflection.Emit;
+
+namespace EmployeeMgmt
 {
     partial class Departments
     {
@@ -293,5 +295,29 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
+             #endregion
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private PictureBox pictureBox1;
+        private Panel panel2;
+        private Label label3;
+        private TextBox DepNameTb;
+        private Label label2;
+        private Label label1;
+        private Panel panel1;
+        private Button AddBtn;
+        private Button EditBtn;
+        private Label EmpLbl;
+        private PictureBox pictureBox2;
+        private PictureBox pictureBox3;
+        private Label label5;
+        private Label label6;
+        private PictureBox pictureBox4;
+        private Label label7;
+        private PictureBox pictureBox5;
+        private Button DeleteBtn;
+    }
+}
+Footer
+© 2023 GitHub, Inc.
 
         }
