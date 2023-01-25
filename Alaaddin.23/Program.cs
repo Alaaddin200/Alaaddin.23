@@ -1,4 +1,6 @@
-﻿namespace EmployeeMgmt
+﻿using System.Reflection.Emit;
+
+namespace EmployeeMgmt
 {
     partial class Login
     {
@@ -99,3 +101,91 @@
             this.label2.Size = new System.Drawing.Size(108, 28);
             this.label2.TabIndex = 5;
             this.label2.Text = "User Name";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(416, 253);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(93, 28);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Password";
+            // 
+            // LoginBtn
+            // 
+            this.LoginBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.LoginBtn.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.LoginBtn.ForeColor = System.Drawing.Color.Teal;
+            this.LoginBtn.Location = new System.Drawing.Point(492, 380);
+            this.LoginBtn.Name = "LoginBtn";
+            this.LoginBtn.Size = new System.Drawing.Size(173, 42);
+            this.LoginBtn.TabIndex = 7;
+            this.LoginBtn.Text = "Login";
+            this.LoginBtn.UseVisualStyleBackColor = true;
+            this.LoginBtn.Click += new System.EventHandler(this.LoginBtn_Click);
+            // 
+            // ResetLbl
+            // 
+            this.ResetLbl.AutoSize = true;
+            this.ResetLbl.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point);
+            this.ResetLbl.ForeColor = System.Drawing.Color.Teal;
+            this.ResetLbl.Location = new System.Drawing.Point(546, 450);
+            this.ResetLbl.Name = "ResetLbl";
+            this.ResetLbl.Size = new System.Drawing.Size(58, 28);
+            this.ResetLbl.TabIndex = 8;
+            this.ResetLbl.Text = "Reset";
+            this.ResetLbl.Click += new System.EventHandler(this.label4_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(808, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(72, 49);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 9;
+            this.pictureBox2.TabStop = false;
+            // 
+            // Login
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(892, 520);
+            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.ResetLbl);
+            this.Controls.Add(this.LoginBtn);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.PasswordTb);
+            this.Controls.Add(this.UNameTb);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Panel panel1;
+        private Label label1;
+        private PictureBox pictureBox1;
+        private TextBox UNameTb;
+        private TextBox PasswordTb;
+        private Label label2;
+        private Label label3;
+        private Button LoginBtn;
+        private Label ResetLbl;
+        private PictureBox pictureBox2;
+    }
+}
