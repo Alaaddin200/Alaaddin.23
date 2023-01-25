@@ -100,3 +100,56 @@
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.Teal;
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel2.Location = new System.Drawing.Point(0, 1014);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1388, 26);
+            this.panel2.TabIndex = 36;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.Teal;
+            this.label5.Location = new System.Drawing.Point(54, 602);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(141, 28);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "Salary Amount";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.Teal;
+            this.label6.Location = new System.Drawing.Point(54, 490);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 28);
+            this.label6.TabIndex = 31;
+            this.label6.Text = "Period";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.Teal;
+            this.label4.Location = new System.Drawing.Point(54, 367);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(141, 28);
+            this.label4.TabIndex = 30;
+            this.label4.Text = "Days Attended";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label3.ForeColor = System.Drawing.Color.Teal;
+            this.label3.Location = new System.Drawing.Point(54, 255);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(98, 28);
+            this.label3.TabIndex = 29;
+            this.label3.Text = "Employee";
+            // 
+            // label2
+            // 
