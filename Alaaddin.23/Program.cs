@@ -55,3 +55,84 @@ namespace EmployeeMgmt
                 MessageBox.Show(Ex.Message);
             }
         }
+        int key = 0;
+        private void DepList_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DepNameTb.Text = DepList.selectedRows[0].Cells[1].Value.ToString();
+            if (DepNameTb.Text == "")
+            {
+                key = 0;
+            }
+            else
+            {
+                key.Convert.ToInt32(DepList.selectedRows[0].Cells[1].Value.ToString());
+            }
+        }
+
+        private void EditBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "Update into DepartmentTb1 set DepName= ('{0}') where DepId = {1} ";
+                    Query = string.Format(Query, DepNameTb.Text, key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Updated!!");
+                    DepNameTb.Text = "";
+
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+
+        private void DeleteBtn_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (DepNameTb.Text == "")
+                {
+                    MessageBox.Show("Missing Data!!!");
+                }
+                else
+                {
+                    string Dep = DepNameTb.Text;
+                    string Query = "Delete from DepartmentTb1  where DepId = {0} ";
+                    Query = string.Format(Query, key);
+                    Con.SetData(Query);
+                    ShowDepartments();
+                    MessageBox.Show("Department Deleted!!");
+                    DepNameTb.Text = "";
+
+                }
+            }
+            catch (Exception Ex)
+            {
+                MessageBox.Show(Ex.Message);
+            }
+        }
+
+        private void EmpLbl_Click(object sender, EventArgs e)
+        {
+            Employees Obj = new Employees();
+            Obj.Show();
+            this.Hide();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Login Obj = new Login();
+            Obj.Show();
+            this.Hide();
+        }
+    }
+}
